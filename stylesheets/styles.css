@@ -560,11 +560,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h4, h5, h6 {
@@ -572,11 +572,23 @@ h4, h5, h6 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
   color: #b6b6b6;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
 }
 
 a {
@@ -820,7 +832,7 @@ section #title .credits.right {
   float: right;
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 720px) {  
   #title .credits {
     display: block;
     width: 100%;
@@ -835,7 +847,32 @@ section #title .credits.right {
     float: none;
     display: block;
   }
+  
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
 }
+
 @media print, screen and (max-width: 480px) {
   #header {
     margin-top: -20px;
