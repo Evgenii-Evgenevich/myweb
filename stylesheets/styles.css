@@ -531,7 +531,9 @@ table {
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-family: "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   color: #f0e7d5;
   font-weight: normal;
   background: #252525;
@@ -833,6 +835,11 @@ section #title .credits.right {
 }
 
 @media print, screen and (max-width: 720px) {  
+  
+  body {
+    font-size: 13px;
+  }
+  
   #title .credits {
     display: block;
     width: 100%;
