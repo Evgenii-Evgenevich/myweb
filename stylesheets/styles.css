@@ -604,8 +604,6 @@ strong {
 
 .wrapper {
   max-width: 760px;
-  height: 100%;
-  max-height: 100%;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
