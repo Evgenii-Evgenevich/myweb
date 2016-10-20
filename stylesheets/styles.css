@@ -801,6 +801,7 @@ section #title {
   outline: none;
   margin: 0 0 50px 0;
   padding: 0 0 5px 0;
+  margin-top: 50px;
 }
 section #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -882,10 +883,14 @@ section #title .credits.right {
   }*/
 
   section {
-    margin-top: -40px;
+    margin-top: -20px;
   }
-
-  /*nav {
+  
+  section #title {
+    margin-top: 0px;
+  }
+  
+  nav li.fork {
     display: none;
-  }*/
+  }
 }
