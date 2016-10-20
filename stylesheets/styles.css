@@ -890,7 +890,7 @@ section #title .credits.right {
     margin-top: 0px;
   }
   
-  nav li.fork {
+  nav .fork {
     display: none;
   }
 }
