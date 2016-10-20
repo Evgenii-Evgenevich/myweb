@@ -792,6 +792,7 @@ dt {
 
 #left_wrap {
   width: 220px;
+  height: 100%;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 50px;
@@ -800,6 +801,7 @@ dt {
 
 #right_wrap {
   width: 220px;
+  height: 100%;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 50px;
