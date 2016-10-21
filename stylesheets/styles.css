@@ -603,10 +603,10 @@ strong {
 }
 
 .wrapper {
-  max-width: 760px;
+  max-width: 1400px;
   margin: -40px auto;
   position: relative;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
 }
 
 section img {
@@ -775,66 +775,38 @@ dt {
 }
 
 #left_wrap {
-  width: 180px;
-  height: 100%;
   padding: 30px 20px;
-  margin: -220px 0;
   float: left;
   position: relative;
-  left: -220px;
-  margin-top: 0px;
+  /*margin-top: 50px;*/
+}
+
+#left_wrap .menu {
+  width: 180px;
 }
 
 #right_wrap {
-  width: 180px;
-  height: 100%;
   padding: 30px 20px;
-  margin: -220px 0;
   float: right;
   position: relative;
-  right: -220px;
-  margin-top: 0px;
+  /*margin-top: 50px;*/
 }
 
 section {
   max-width: 760px;
-  padding: 30px 0px 70px 0px;
-  margin: 20px 0;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
-
-section #title {
-  border: 0;
-  outline: none;
-  margin: 0 0 50px 0;
-  padding: 0 0 5px 0;
-  margin-top: 50px;
-}
-section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  line-height: 36px;
-}
-section #title p {
-  color: #d7cfbe;
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-  text-align: center;
-}
-section #title .credits {
-  font-size: 11px;
+section .credits {
+  font-size: 16px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
 }
-section #title .credits.left {
+section .left {
   float: left;
 }
-section #title .credits.right {
+section .right {
   float: right;
 }
 
@@ -844,13 +816,12 @@ section #title .credits.right {
   }
   
   #right_wrap {
-    display: none;
   }
 }
 @media print, screen and (max-width: 720px) {  
   
   body {
-    font-size: 13px;
+    font-size: 14px;
   }
   
   #title .credits {
@@ -894,6 +865,11 @@ section #title .credits.right {
 }
 
 @media print, screen and (max-width: 480px) {
+	
+  body {
+    font-size: 12px;
+  }
+  
   .wrapper {
     margin-top: -50px;
   }
