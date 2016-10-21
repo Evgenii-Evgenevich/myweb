@@ -710,9 +710,7 @@ dt {
   max-width: 760px;
   margin: 0 auto;
   padding: 0 10px;
-  background: blue;
-  position: absolute;
-  margin: 6px auto;
+  /*background: blue;*/
 }
 #header nav li {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
