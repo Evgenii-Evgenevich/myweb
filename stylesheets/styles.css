@@ -796,6 +796,13 @@ section {
   max-width: 760px;
   /*margin-top: 50px;*/
 }
+section #title {
+  border: 0;
+  outline: none;
+  margin: 0 0 50px 0;
+  padding: 0 0 5px 0;
+  margin-top: 50px;
+}
 section .credits {
   font-size: 16px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
