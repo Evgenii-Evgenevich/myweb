@@ -573,12 +573,15 @@ h6 {
 }
 
 a {
-  color: #ffcc00;
+  /*color: #ffcc00;*/
+  border-bottom: 1px dotted #0090ff;
   font-weight: 400;
   text-decoration: none;
 }
+a:focus,
 a:hover {
-  color: #ffeb9b;
+  /*color: #ffeb9b;*/
+  border-bottom: 1px solid #1883ed;
 }
 
 a small {
