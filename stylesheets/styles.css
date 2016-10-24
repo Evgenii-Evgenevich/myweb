@@ -693,7 +693,7 @@ dt {
   margin: 0 auto;
   padding: 0 10px;
 }
-#header nav li {
+#header li {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   list-style: none;
@@ -703,13 +703,13 @@ dt {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
   font-size: 14px;
 }
-#header nav li a {
+#header li a {
   color: white;
-  border: 1px solid #5d910b;
-  background: linear-gradient(#93bd20, #659e10);
+  border: 0;
+  background: linear-gradient(#0090ff, #1883ed);
   border-radius: 2px;
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  background-color: #93bd20;
+  background-color: #0090ff;
   padding: 10px 12px;
   margin-top: 6px;
   line-height: 14px;
@@ -717,17 +717,17 @@ dt {
   display: inline-block;
   text-align: center;
 }
-#header nav li a:hover {
-  background: linear-gradient(#749619, #527f0e);
-  background-color: #659e10;
-  border: 1px solid #527f0e;
+#header li a:hover {
+  background: linear-gradient(#1883ed, #6490ff);
+  background-color: #1883ed;
+  border: 0;
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
 }
-#header nav li.fork {
+#header li.fork {
   float: right;
   margin-right: 6px;
 }
-#header nav li.title {
+#header li.title {
   float: left;
   margin-left: 0px;
   font-size: 28px;
