@@ -787,8 +787,9 @@ dt {
 
 @media print, screen and (max-width: 1200px) {  
   #left_wrap {
-    display: none;
-		padding-bottom: 100%;
+    /*display: none;*/
+	  padding-bottom: 100%;
+		z-index: 1;
   }
   
   #content_wrap {	  
