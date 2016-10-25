@@ -757,15 +757,12 @@ dt {
   max-width: 760px;
 }
 
-#right_wrap {
+#content_wrap {
   padding: 20px 20px;
-  float: right;
   position: relative;
-  margin: 50px 220px 0 0;
+  margin: 50px 220px;
 }
 
-section {
-}
 #title {
   border: 0;
   outline: none;
