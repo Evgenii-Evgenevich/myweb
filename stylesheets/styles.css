@@ -794,7 +794,7 @@ dt {
 
 @media print, screen and (max-width: 1200px) {  
   #left_wrap {
-    /*display: none;*/
+    display: none;
     padding-bottom: 100%;
     z-index: 1;
   }
