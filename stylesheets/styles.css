@@ -756,14 +756,14 @@ dt {
 
 section {
 }
-section #title {
+#title {
   border: 0;
   outline: none;
   margin: 0 0 50px 0;
   padding: 0 0 5px 0;
   margin-top: 50px;
 }
-section .credits {
+#title .credits {
   /*font-size: 16px;*/
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -771,10 +771,10 @@ section .credits {
   /*color: #f0e7d5*/
   margin-top: -10px;
 }
-section .left {
+ .left {
   float: left;
 }
-section .right {
+ .right {
   float: right;
 }
 
