@@ -701,7 +701,6 @@ dt {
   color: white;
   line-height: 50px;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-  font-size: 14px;
 }
 #header li a {
   color: white;
@@ -718,7 +717,7 @@ dt {
   text-align: center;
 }
 #header li a:hover {
-  background: linear-gradient(#1FB7FF, #0564EB);
+  background: linear-gradient(#1F70ff, #0564eb);
   background-color: #1883ed;
   border: 0;
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
