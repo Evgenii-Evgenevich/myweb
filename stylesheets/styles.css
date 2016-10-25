@@ -743,10 +743,10 @@ dt {
   font-size: 14.5px;
 }
 #left_wrap li a {
-  
+  border-bottom: 1px dotted #656565;
 }
 #left_wrap li a:hover {
-  
+  border-bottom: 1px dotted #0090ff;
 }
 
 .menu {
