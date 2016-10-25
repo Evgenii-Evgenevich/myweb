@@ -681,6 +681,9 @@ dt {
   font-weight: normal;
 }
 
+section {
+}
+
 #header {
   z-index: 100;
   left: 0;
