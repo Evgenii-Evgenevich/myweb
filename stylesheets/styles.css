@@ -778,6 +778,13 @@ dt {
   /*color: #f0e7d5*/
   margin-top: -10px;
 }
+#title a {
+  border-bottom: 1px dotted #656565;
+}
+#title a:hover {
+  border-bottom: 1px dotted #0090ff;
+}
+
  .left {
   float: left;
 }
