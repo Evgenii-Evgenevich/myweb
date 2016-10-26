@@ -618,11 +618,14 @@ blockquote {
   font-style: italic;
 }
 
-code {
+code, pre {
   font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color: #efefef;
-  /*background: #252525;*/
-  font-size: 13px;
+  background: #191919;
+  font-size: 14px;
+}
+
+code {
   margin: 0 4px;
   padding: 4px 6px;
   border-radius: 2px;
@@ -630,7 +633,6 @@ code {
 
 pre {
   padding: 8px 15px;
-  background: #191919;
   border-radius: 2px;
   border: 1px solid #121212;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -639,7 +641,6 @@ pre {
 }
 pre code {
   color: #efefef;
-  /*background: #252525;*/
   text-shadow: 0px 1px 0px #000;
   margin: 0;
   padding: 0;
@@ -692,9 +693,6 @@ dt {
 .inner h5
 .inner h6 {
   color: #222222;
-}
-.inner code {
-  /*background: #252525;*/
 }
 
 #header {
@@ -908,11 +906,19 @@ dt {
   h6 {
     font-size: 12px;
   }
+  
+  code, pre {
+    font-size: 12px;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
   body {
     font-size: 12px;
+  }
+  
+  code, pre {
+    font-size: 10px;
   }
   
   .wrapper {
