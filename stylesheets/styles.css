@@ -84,6 +84,7 @@ summary {
 }
 section {
   display: grid;
+  display: table;
 }
 
 /*
