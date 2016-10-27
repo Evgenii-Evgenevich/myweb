@@ -78,13 +78,9 @@ footer,
 header,
 hgroup,
 nav,
-/*section,*/
+section
 summary {
   display: block;
-}
-section {
-  display: grid;
-  display: table;
 }
 
 /*
@@ -308,7 +304,7 @@ ul {
 }
 
 dd {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 20px;
 }
 
 /*
@@ -541,6 +537,10 @@ p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
 }
 
+dl {
+  padding-left: 20px;
+}
+
 h1, h2, h3 {
   line-height: 1.1;
 }
@@ -574,7 +574,6 @@ h6 {
 }
 
 a {
-  /*color: #ffcc00;*/
   color: inherit;
   border-bottom: 1px dotted #0090ff;
   font-weight: 400;
@@ -582,7 +581,6 @@ a {
 }
 a:focus,
 a:hover {
-  /*color: #ffeb9b;*/
   border-bottom: 1px solid #1883ed;
 }
 
@@ -593,8 +591,9 @@ a small {
   display: block;
 }
 
-ul {
-  list-style-image: url("../images/bullet.png");
+section {
+  display: grid;
+  display: table;
 }
 
 strong {
@@ -613,7 +612,7 @@ section img {
 }
 
 blockquote {
-  border-left: 3px solid #ffcc00;
+  border-left: 3px solid #f0e7d5;
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
@@ -676,24 +675,30 @@ hr {
 }
 
 dt {
-  color: #F0E7D5;
+  /*color: #F0E7D5;*/
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
 
 .inner {
   background: #fff;
-  color: #272727;
+  color: #373737;
   padding: 20px 20px 5px;
   margin-bottom: 10px;
 }
 .inner h1,
 .inner h2,
-.inner h3
-.inner h4
-.inner h5
-.inner h6 {
+.inner h3,
+.inner h4,
+.inner h5,
+.inner h6,
+.inner th {
   color: #222222;
+}
+.inner blockquote {
+  
+  border-left-color: #a5a5a5;
+  color: #575757;
 }
 
 #header {
@@ -754,7 +759,7 @@ dt {
   padding: 20px;
   float: left;
   position: relative;
-  /*! margin-top: 50px; */
+  /*margin-top: 50px;*/
 }
 #left_wrap li {
   list-style: none;
@@ -764,7 +769,7 @@ dt {
   border-bottom: 1px dotted #656565;
 }
 #left_wrap li a:hover {
-  border-bottom: 1px dotted #0090ff;
+  border-bottom: 1px solid #0090ff;
 }
 
 .menu {
@@ -789,7 +794,6 @@ dt {
   margin-top: 50px;
 }
 #title .credits {
-  /*font-size: 16px;*/
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
@@ -830,7 +834,6 @@ dt {
 }
 @media print, screen and (max-width: 980px) {  
   .wrapper {
-    /*max-width: 100%;*/
   }
   
   #header .main {
