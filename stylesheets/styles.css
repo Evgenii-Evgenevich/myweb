@@ -696,6 +696,13 @@ dt {
   color: #575757;
 }
 
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
 #header {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -807,13 +814,31 @@ dt {
   border-bottom: 1px dotted #0090ff;
 }
 
-.left {
-  float: left;
+@media print, screen and (min-width: 1300px) {
+ .wrapper {
+    min-width: 1300px;
+    max-width: 1400px;
+  }
+  
+  .main {
+    max-width: 920px;
+  }
+  
+  .inner {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
-.right {
-  float: right;
+@media print, screen and (min-width: 1300px) and (max-width: 1400px) {  
+  .wrapper {
+    max-width: 100%;
+  }
+  
+  .inner {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 }
-
 @media print, screen and (max-width: 1280px) {  
   .wrapper {
     max-width: 1060px;
