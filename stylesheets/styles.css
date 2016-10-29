@@ -744,7 +744,7 @@ dt {
 }
 #header .fork {
   float: right;
-  margin-right: 6px;
+  margin-right: 10px;
   font-size: 14.5px;
 }
 #header .title {
@@ -776,7 +776,7 @@ dt {
 }
 
 .main {
-  max-width: 820px;
+  width: 820px;
   margin: 0 auto;
 }
 
@@ -799,12 +799,12 @@ dt {
   outline: none;
   margin: 50px 0 50px 0;
   padding: 0 0 5px 0;
+  /*color: #f0e7d5*/
 }
 #title .credits {
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
-  /*color: #f0e7d5*/
   margin-top: -14px;
 }
 #title .credits a {
@@ -814,9 +814,14 @@ dt {
   border-bottom: 1px dotted #0090ff;
 }
 
-@media print, screen and (max-width: 1280px) {  
+@media print, screen and (max-width: 1278px) {  
   .wrapper {
     max-width: 1060px;
+  }
+  
+  .main {
+    max-width: 820px;
+    width: unset;
   }
   
   #header .main {
@@ -832,10 +837,7 @@ dt {
     padding-right: 10px;
   }
 }
-@media print, screen and (max-width: 980px) {  
-  .wrapper {
-  }
-  
+@media print, screen and (max-width: 978px) {    
   #header .main {
     max-width: 820px;
   }
@@ -850,7 +852,7 @@ dt {
     /*float: none;*/	  
   }
 }
-@media print, screen and (max-width: 860px) {
+@media print, screen and (max-width: 878px) {
   .inner {
   }
   
@@ -858,7 +860,7 @@ dt {
    padding: 10px;
   }
 }
-@media print, screen and (max-width: 720px) {  
+@media print, screen and (max-width: 718px) {  
   body {
     font-size: 14px;
   }
