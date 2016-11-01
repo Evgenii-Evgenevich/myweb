@@ -63,7 +63,7 @@ var domReady = function() {
     window.onload = _2;
     window.onscroll = function() {
       var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-      document.body.getElementById('showScroll').innerHTML = scrolled + 'px';
+      document.getElementById('showScroll').innerHTML = scrolled + 'px';
     }
     return function(fn) {
         if (typeof fn === "function") {
