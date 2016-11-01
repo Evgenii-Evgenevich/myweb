@@ -679,7 +679,7 @@ dt {
 .inner {
   background: #fff;
   color: #373737;
-  padding: 20px 20px 5px;
+  padding: 30px 20px 5px;
   margin-bottom: 10px;
 }
 .inner h1,
@@ -799,6 +799,8 @@ dt {
   outline: none;
   margin: 50px 0 50px 0;
   padding: 0 0 5px 0;
+  z-index: 5;
+  position: relative;
   /*color: #f0e7d5*/
 }
 #title .credits {
@@ -817,6 +819,11 @@ dt {
 @media print, screen and (max-width: 1278px) {  
   .wrapper {
     max-width: 1060px;
+  }
+  
+  .inner {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .main {
