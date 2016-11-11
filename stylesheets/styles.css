@@ -856,11 +856,14 @@ dt {
     height: 100%;
     margin-top: -120px;
     padding-top: 70px;
-    z-index: 2;
+    padding-right: 100px;
+    z-index: 0;
     left: -190px;
   }
   
   #left_wrap:hover {
+    z-index: 2;
+    padding-right: 10px;
     left: 0;
   }
   
@@ -871,6 +874,11 @@ dt {
 }
 @media print, screen and (max-width: 878px) {
   .inner {
+  }
+  
+  #left_wrap {
+    padding-right: 10px;
+    z-index: 2;
   }
   
   #content_wrap {
