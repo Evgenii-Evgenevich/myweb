@@ -577,7 +577,7 @@ a {
 }
 a:focus,
 a:hover {
-  border-bottom: 1px solid #0090ff;
+  border-bottom: 1px solid #4090ee;
 }
 
 a small {
@@ -588,7 +588,7 @@ a small {
 }
 
 a .mention {
-  color: #0090ff;
+  color: #4090ee;
   border: 0;
 }
 
@@ -822,7 +822,7 @@ dt {
   border-bottom: 1px dotted #656565;
 }
 #title .credits a:hover {
-  border-bottom: 1px dotted #0090ff;
+  border-bottom: 1px dotted #4090ee;
 }
 
 @media print, screen and (max-width: 1278px) {  
