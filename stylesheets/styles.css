@@ -571,20 +571,29 @@ h6 {
 
 a {
   color: inherit;
-  border-bottom: 1px dotted #0090ff;
+  border-bottom: 1px dotted #373737;
   font-weight: 400;
   text-decoration: none;
 }
 a:focus,
 a:hover {
-  border-bottom: 1px solid #1883ed;
+  border-bottom: 1px solid #0090ff;
 }
 
 a small {
   font-size: 11px;
-  color: #666;
+  color: inherit;
   margin-top: -0.6em;
   display: block;
+}
+
+a .mention {
+  color: #0090ff;
+  border: 0;
+}
+
+a .mention:before {
+  /*content: '@';*/
 }
 
 section {
@@ -769,10 +778,10 @@ dt {
   list-style: none;
 }
 .menu a {
-  border-bottom: 1px dotted #656565;
+  border: 0;
 }
 .menu a:hover {
-  border-bottom: 1px solid #0090ff;
+  border-bottom: 1px dotted #1883ed;
 }
 
 .main {
@@ -785,7 +794,7 @@ dt {
   list-style: none;
 }
 .button:after {
-  content: '☰';
+  content: 'â˜°';
 }
 
 #content_wrap {
