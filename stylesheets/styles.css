@@ -587,12 +587,11 @@ a small {
   display: block;
 }
 
-a .mention {
+.mention {
   color: #4090ee;
   border: 0;
 }
-
-a .mention:before {
+.mention:before {
   /*content: '@';*/
 }
 
