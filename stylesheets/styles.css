@@ -765,7 +765,6 @@ dt {
   padding: 20px;
   float: left;
   position: relative;
-  /*margin-top: 50px;*/
 }
 
 .menu {
@@ -809,7 +808,6 @@ dt {
   padding: 0 0 5px 0;
   z-index: 5;
   position: relative;
-  /*color: #f0e7d5*/
 }
 #title .credits {
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -869,7 +867,7 @@ dt {
   }
   
   #left_wrap:hover, 
-  #left_wrap .menu-visible {
+  #left_wrap.menu-visible {
     z-index: 2;
     padding-right: 10px;
     left: 0;
