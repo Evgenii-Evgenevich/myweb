@@ -11,8 +11,7 @@ window.ontouchend = function(evt) {
     return;
   }
   
-  var d_x = evt.changedTouches[0].clientX - touchX;
-  var d_y = evt.changedTouches[0].clientY - 0;
+  let d_x = evt.changedTouches[0].clientX - touchX;
   
   if (Math.abs(d_x) > 50) {
     document.getElementById('left_wrap').classList.add('menu-visible');
@@ -26,5 +25,7 @@ window.ontouchstart = function(evt) {
   
   touchX = evt.changedTouches[0].clientX;
   
-  document.getElementById('left_wrap').classList.remove('menu-visible');
+  if (document.getElementById('left_wrap') != evt.changedTouches[0].target) {
+    document.getElementById('left_wrap').classList.remove('menu-visible');
+  }
 }
