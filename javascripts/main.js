@@ -1,4 +1,12 @@
 
+function open_left_wrap() {
+    document.getElementById('left_wrap').classList.add('menu-visible');
+}
+
+function close_left_wrap() {
+    document.getElementById('left_wrap').classList.remove('menu-visible');
+}
+
 window.onscroll = function() {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
   document.getElementById('showScroll').innerHTML = scrolled + 'px';
@@ -14,10 +22,10 @@ window.ontouchend = function(evt) {
   let d_x = evt.changedTouches[0].clientX - touchX;
   
   if (d_x > 50) {
-    document.getElementById('left_wrap').classList.add('menu-visible');
+    open_left_wrap();
   }
   else if (d_x < -50) {
-    document.getElementById('left_wrap').classList.remove('menu-visible');
+    close_left_wrap();
   }
 }
 
@@ -29,6 +37,7 @@ window.ontouchstart = function(evt) {
   touchX = evt.changedTouches[0].clientX;
   
   if (document.getElementById('left_wrap') != evt.changedTouches[0].target) {
-    document.getElementById('left_wrap').classList.remove('menu-visible');
+    close_left_wrap();
   }
 }
+
