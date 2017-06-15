@@ -13,8 +13,11 @@ window.ontouchend = function(evt) {
   
   let d_x = evt.changedTouches[0].clientX - touchX;
   
-  if (Math.abs(d_x) > 50) {
+  if (d_x > 50) {
     document.getElementById('left_wrap').classList.add('menu-visible');
+  }
+  else if (d_x < -50) {
+    document.getElementById('left_wrap').classList.remove('menu-visible');
   }
 }
 
