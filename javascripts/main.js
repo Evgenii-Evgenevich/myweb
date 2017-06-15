@@ -7,11 +7,6 @@ function close_left_wrap() {
     document.getElementById('left_wrap').classList.remove('menu-visible');
 }
 
-window.onscroll = function() {
-  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-  document.getElementById('showScroll').innerHTML = scrolled + 'px';
-}
-
 var touchX = 0;
 
 window.ontouchend = function(evt) {
