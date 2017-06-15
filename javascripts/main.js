@@ -10,8 +10,9 @@ window.ontouchmove = function(evt) {
   }
   
   var d_x = evt.touches[0].clientX;
+  var d_y = evt.touches[0].clientY;
   
-  if (Math.abs(d_x) > 20) {
+  if (Math.abs(d_x) > 50 && Math.abs(d_y) < 5) {
     document.getElementById('left_wrap').classList.add('menu-visible');
   }
 }
