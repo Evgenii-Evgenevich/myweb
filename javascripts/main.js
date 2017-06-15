@@ -16,6 +16,6 @@ window.ontouchmove = function(evt) {
   }
 }
 
-window.ontouchend = function(evt) {
+window.ontouchstart = function(evt) {
     document.getElementById('left_wrap').classList.remove('menu-visible');
 }
